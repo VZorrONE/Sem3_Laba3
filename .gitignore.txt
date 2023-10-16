@@ -1,1 +1,1 @@
-C:\Users\VZorrONE\Documents\probprog\Laba 6_1\govno.txt
+/govnishe.txt
