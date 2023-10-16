@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Laba_6_1
 {
-    
+    //nothing more
     public partial class Form1 : Form
     {
 
