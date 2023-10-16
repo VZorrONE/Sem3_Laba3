@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Laba_6_1
 {
-    //для теста
+    
     public partial class Form1 : Form
     {
 
@@ -76,7 +76,7 @@ namespace Laba_6_1
 
         }
     }
-    //для теста
+    
     abstract class Figure
     {
         public double Length { get; set; }
@@ -102,6 +102,7 @@ namespace Laba_6_1
         public abstract double perimeter();
 
     }
+    //квадрат
     class Square : Figure
     {
         public Square(double len) : base(len) { }
@@ -116,7 +117,7 @@ namespace Laba_6_1
             return Perimeter;
         }
     }
-    //для теста
+    //Треугольник
     class Triangle : Figure
     {
         public Triangle(double len) : base(len) { }
@@ -131,6 +132,7 @@ namespace Laba_6_1
             return Perimeter;
         }
     }
+    //круг
     class Circle : Figure
     {
         public Circle(double len) : base(len) { }
@@ -145,6 +147,7 @@ namespace Laba_6_1
             return Perimeter;
         }
     }
+    //шестиугольник
     class Hexagon : Figure
     {
         public Hexagon(double len) : base(len) { }
