@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace Laba_6_1
 {
+    //для теста
     public partial class Form1 : Form
     {
 
@@ -75,6 +76,7 @@ namespace Laba_6_1
 
         }
     }
+    //для теста
     abstract class Figure
     {
         public double Length { get; set; }
@@ -114,6 +116,7 @@ namespace Laba_6_1
             return Perimeter;
         }
     }
+    //для теста
     class Triangle : Figure
     {
         public Triangle(double len) : base(len) { }
